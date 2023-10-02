@@ -2270,24 +2270,6 @@ export const data = {
   'esnext.array-buffer.transfer': null,
   // TODO: Remove from `core-js@4`
   'esnext.array-buffer.transfer-to-fixed-length': null,
-  'esnext.array-buffer.detached': {
-    bun: '1.0.19',
-    chrome: '114',
-    firefox: '122',
-    safari: '17.4',
-  },
-  'esnext.array-buffer.transfer': {
-    bun: '1.0.19',
-    chrome: '114',
-    firefox: '122',
-    safari: '17.4',
-  },
-  'esnext.array-buffer.transfer-to-fixed-length': {
-    bun: '1.0.19',
-    chrome: '114',
-    firefox: '122',
-    safari: '17.4',
-  },
   'esnext.async-disposable-stack.constructor': {
     // added in 133, reverted in 134, https://issues.chromium.org/issues/42203506#comment25
     // https://github.com/tc39/proposal-explicit-resource-management/issues/256, fixed in early 135
@@ -2364,8 +2346,6 @@ export const data = {
   // TODO: Remove from `core-js@4`
   'esnext.function.un-this': {
   },
-  // TODO: Remove from `core-js@4`
-  'esnext.global-this': null,
   // TODO: Remove from `core-js@4`
   'esnext.iterator.constructor': null,
   // TODO: Remove from `core-js@4`
@@ -3011,7 +2991,6 @@ export const renamed = new Map([
   ['esnext.array-buffer.transfer-to-fixed-length', 'es.array-buffer.transfer-to-fixed-length'],
   ['esnext.data-view.get-float16', 'es.data-view.get-float16'],
   ['esnext.data-view.set-float16', 'es.data-view.set-float16'],
-  ['esnext.global-this', 'es.global-this'],
   ['esnext.iterator.constructor', 'es.iterator.constructor'],
   ['esnext.iterator.drop', 'es.iterator.drop'],
   ['esnext.iterator.every', 'es.iterator.every'],
