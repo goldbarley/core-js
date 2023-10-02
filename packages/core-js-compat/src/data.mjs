@@ -2211,8 +2211,6 @@ export const data = {
     rhino: '1.7.13',
     safari: '10.0',
   },
-  // TODO: Remove from `core-js@4`
-  'esnext.aggregate-error': null,
   'esnext.suppressed-error.constructor': {
     // Bun ~ 1.0.33 issues
     // https://github.com/oven-sh/bun/issues/9282
@@ -3030,7 +3028,6 @@ export const renamed = new Map([
   ['esnext.array-buffer.detached', 'es.array-buffer.detached'],
   ['esnext.array-buffer.transfer', 'es.array-buffer.transfer'],
   ['esnext.array-buffer.transfer-to-fixed-length', 'es.array-buffer.transfer-to-fixed-length'],
-  ['esnext.aggregate-error', 'es.aggregate-error'],
   ['esnext.data-view.get-float16', 'es.data-view.get-float16'],
   ['esnext.data-view.set-float16', 'es.data-view.set-float16'],
   ['esnext.global-this', 'es.global-this'],
