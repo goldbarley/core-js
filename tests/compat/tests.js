@@ -1254,7 +1254,7 @@ GLOBAL.tests = {
   }),
   'es.set.symmetric-difference.v2': createSetMethodTest('symmetricDifference'),
   'es.set.union.v2': createSetMethodTest('union'),
-  'es.string.at-alternative': function () {
+  'es.string.at': function () {
     return '𠮷'.at(-2) === '\uD842';
   },
   'es.string.code-point-at': function () {
