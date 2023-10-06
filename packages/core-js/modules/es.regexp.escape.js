@@ -22,7 +22,7 @@ var ControlEscape = {
   '\u000A': 'n',
   '\u000B': 'v',
   '\u000C': 'f',
-  '\u000D': 'r'
+  '\u000D': 'r',
 };
 
 var escapeChar = function (chr) {
@@ -34,7 +34,7 @@ var escapeChar = function (chr) {
 var FORCED = !$escape || $escape('ab') !== '\\x61b';
 
 // `RegExp.escape` method
-// https://github.com/tc39/proposal-regex-escaping
+// https://tc39.es/ecma262/#sec-regexp.escape
 $({ target: 'RegExp', stat: true, forced: FORCED }, {
   escape: function escape(S) {
     aString(S);
@@ -66,5 +66,5 @@ $({ target: 'RegExp', stat: true, forced: FORCED }, {
     }
 
     return join(result, '');
-  }
+  },
 });

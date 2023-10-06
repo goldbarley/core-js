@@ -43,12 +43,12 @@ var packFloat16 = function (value) {
 var setUint16 = uncurryThis(DataView.prototype.setUint16);
 
 // `DataView.prototype.setFloat16` method
-// https://github.com/tc39/proposal-float16array
+// https://tc39.es/ecma262/#sec-dataview.prototype.setfloat16
 $({ target: 'DataView', proto: true }, {
   setFloat16: function setFloat16(byteOffset, value /* , littleEndian */) {
     aDataView(this);
     var offset = toIndex(byteOffset);
     var bytes = packFloat16(+value);
     return setUint16(this, offset, bytes, arguments.length > 2 ? arguments[2] : false);
-  }
+  },
 });
