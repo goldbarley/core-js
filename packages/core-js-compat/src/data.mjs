@@ -2345,8 +2345,6 @@ export const data = {
   'esnext.math.sum-precise': {
     firefox: '137',
   },
-  'esnext.number.from-string': {
-  },
   // TODO: Remove from `core-js@4`
   'esnext.promise.try': null,
   'esnext.set.add-all': {

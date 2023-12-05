@@ -1798,9 +1798,6 @@ GLOBAL.tests = {
   'esnext.math.sum-precise': function () {
     return Math.sumPrecise;
   },
-  'esnext.number.from-string': function () {
-    return Number.fromString;
-  },
   'esnext.set.add-all': function () {
     return Set.prototype.addAll;
   },
