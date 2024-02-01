@@ -2207,12 +2207,8 @@ export const data = {
   },
   'esnext.async-iterator.to-array': {
   },
-  // TODO: Remove from `core-js@4`
-  'esnext.data-view.get-float16': null,
   'esnext.data-view.get-uint8-clamped': {
   },
-  // TODO: Remove from `core-js@4`
-  'esnext.data-view.set-float16': null,
   'esnext.data-view.set-uint8-clamped': {
   },
   'esnext.disposable-stack.constructor': {
@@ -2288,9 +2284,6 @@ export const data = {
     // enabled in 132 and disabled in 133 because of regression, https://bugzilla.mozilla.org/show_bug.cgi?id=1925334
     firefox: '135', // '132',
     safari: '18.4',
-  },
-  // TODO: Remove from `core-js@4`
-  'esnext.map.emplace': {
   },
   'esnext.map.from': {
   },
@@ -2380,9 +2373,6 @@ export const data = {
   'esnext.weak-map.from': {
   },
   'esnext.weak-map.of': {
-  },
-  // TODO: Remove from `core-js@4`
-  'esnext.weak-map.emplace': {
   },
   'esnext.weak-map.get-or-insert': {
   },
@@ -2610,8 +2600,6 @@ export const renamed = new Map([
   ['esnext.array-buffer.detached', 'es.array-buffer.detached'],
   ['esnext.array-buffer.transfer', 'es.array-buffer.transfer'],
   ['esnext.array-buffer.transfer-to-fixed-length', 'es.array-buffer.transfer-to-fixed-length'],
-  ['esnext.data-view.get-float16', 'es.data-view.get-float16'],
-  ['esnext.data-view.set-float16', 'es.data-view.set-float16'],
   ['esnext.iterator.constructor', 'es.iterator.constructor'],
   ['esnext.iterator.drop', 'es.iterator.drop'],
   ['esnext.iterator.every', 'es.iterator.every'],
@@ -2625,9 +2613,7 @@ export const renamed = new Map([
   ['esnext.iterator.some', 'es.iterator.some'],
   ['esnext.iterator.take', 'es.iterator.take'],
   ['esnext.iterator.to-array', 'es.iterator.to-array'],
-  ['esnext.math.f16round', 'es.math.f16round'],
   ['esnext.promise.try', 'es.promise.try'],
-  ['esnext.regexp.escape', 'es.regexp.escape'],
 ]);
 
 for (const [old, nw] of renamed) data[old] = data[nw];
