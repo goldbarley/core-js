@@ -2128,6 +2128,10 @@ export default [
       'tests/**/bundles/**',
       'tests/compat/compat-data.js',
       'tests/unit-@(global|pure)/index.js',
+      'web/scripts/*',
+      'web/dist/**',
+      'web/templates/**',
+      'web/src/js/main.js',
     ],
   },
   {
@@ -2261,6 +2265,7 @@ export default [
       'scripts/**',
       'tests/compat/*.mjs',
       'tests/@(compat-@(data|tools)|eslint|entries|observables|promises-aplus|unit-@(karma|node))/**',
+      'web/**',
     ],
     rules: nodeDev,
   },
